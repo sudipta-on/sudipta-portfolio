@@ -36,10 +36,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        secrets.VITE_EMAILJS_SERVICE_ID,
-        secrets.VITE_EMAILJS_TEMPLATE_ID,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        secrets.VITE_EMAILJS_PUBLIC_KEY
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
