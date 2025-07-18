@@ -50,7 +50,7 @@ const Contact = () => {
         (error) => {
           alert('Failed to send. Try again.');
           console.error(error.text);
-          setTimeout(() => setStatus(null), 3000);
+          setTimeout(() => setAlertVisible(false), 3000);
         }
       );
   };
