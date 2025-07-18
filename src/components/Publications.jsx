@@ -98,7 +98,7 @@ const Publications = () => {
             href="https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block text-white font-semibold text-base px-6 py-3 rounded-lg bg-white/10 hover:bg-white/20 transition-all duration-300"
+            className="inline-block text-white font-semibold text-base px-6 py-3 rounded-lg bg-white/20 hover:bg-white/30 transition-all duration-300"
           >
             View All Publications
           </a>
