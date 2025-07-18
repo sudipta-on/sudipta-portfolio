@@ -72,7 +72,7 @@ const Hero = () => {
           <div className="w-100 h-100 rounded-full p-1 bg-gradient-to-tr from-cyan-500 via-blue-500 to-purple-600 hover:shadow-[0_0_150px_rgba(180,120,255,0.3)]">
             <div className="w-full h-full rounded-full overflow-hidden bg-black ">
               <img
-                src="src/assets/picofme.png"
+                src="picofme.png"
                 alt="Sudipta Majumder"
                 className="object-cover w-full h-full"
               />
