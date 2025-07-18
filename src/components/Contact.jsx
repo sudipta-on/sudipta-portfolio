@@ -38,14 +38,14 @@ const Contact = () => {
       .sendForm(
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-        form.current,
+        formRef.current,
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
           setAlertVisible(true);
           setTimeout(() => setAlertVisible(false), 3000); 
-          form.current.reset();
+          formRef.current.reset();
         },
         (error) => {
           alert('Failed to send. Try again.');
@@ -111,21 +111,21 @@ const Contact = () => {
         <form ref={formRef} onSubmit={sendEmail} className="space-y-4 mb-4">
           <input
             type="text"
-            name="user_name"
+            name="name"
             placeholder="Enter Your Name"
             required
             className="w-full px-4 py-3 bg-transparent border border-slate-500/30 text-white rounded-lg focus:ring-2 focus:ring-purple-500"
           />
           <input
             type="email"
-            name="user_email"
+            name="email"
             placeholder="Enter Your Email"
             required
             className="w-full px-4 py-3 bg-transparent border border-slate-500/30 text-white rounded-lg focus:ring-2 focus:ring-purple-500"
           />
           <input
             type="text"
-            name="subject"
+            name="title"
             placeholder="Enter Your Subject"
             className="w-full px-4 py-3 bg-transparent border border-slate-500/30 text-white rounded-lg focus:ring-2 focus:ring-purple-500"
           />
