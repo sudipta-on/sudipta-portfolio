@@ -26,7 +26,3 @@ dist-ssr
 .env.local
 .env.*.local
 
-VITE_EMAILJS_SERVICE_ID='service_hd86s8u'
-VITE_EMAILJS_TEMPLATE_ID='template_j3coymn'
-VITE_EMAILJS_PUBLIC_KEY='lHy_pgd-sj9FMIz9B'
-
