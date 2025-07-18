@@ -1,4 +1,4 @@
-r// src/components/Contact.jsx
+// src/components/Contact.jsx
 import React, { useRef, useState, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
