@@ -1,4 +1,4 @@
-// src/components/Contact.jsx
+r// src/components/Contact.jsx
 import React, { useRef, useState, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -36,10 +36,10 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        secrets.VITE_EMAILJS_SERVICE_ID,
+        secrets.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        secrets.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
