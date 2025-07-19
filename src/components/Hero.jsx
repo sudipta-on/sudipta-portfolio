@@ -37,7 +37,7 @@ const Hero = () => {
                   'Quantum Developer',
                   'QML Researcher',
                   'QML Enthusiast',
-                  'Schödinger Coder',
+                  'Schrödinger Coder',
                 ],
                 autoStart: true,
                 loop: true,
@@ -45,7 +45,7 @@ const Hero = () => {
             />
           </h2>
           <p className="text-slate-300 mb-6 max-w-xl">
-            A Quantum Computing enthusiast with deep interest in quantum systems, machine learning, and computing. 
+            A Quantum Computing enthusiast with a deep interest in quantum systems, machine learning, and computing. 
           </p>
 
           {/* Social Icons */}
