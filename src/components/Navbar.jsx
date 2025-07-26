@@ -9,8 +9,8 @@ const Navbar = () => {
           <a href="#about" className="hover:text-purple-400 transition">About</a>
           <a href="#research" className="hover:text-purple-400 transition">Research</a>
           <a href="#education" className="hover:text-purple-400 transition">Education</a>
-          <a href="#publications" className="hover:text-purple-400 transition">Publications</a>
           <a href="#experience" className="hover:text-purple-400 transition">Experiences</a>
+          <a href="#publications" className="hover:text-purple-400 transition">Publications</a>
           {/* <a href="#photos" className="hover:text-purple-400 transition">Gallery</a> */}
           <a href="#contact" className="hover:text-purple-400 transition">Contact</a>
         </div>
