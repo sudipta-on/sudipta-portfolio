@@ -60,7 +60,7 @@ const Hero = () => {
 
           {/* Social Icons */}
           <div className="flex items-center gap-4 mb-6 text-cyan-400 text-xl">
-            <a href="https://wa.me/919883429797" alt='Whatsapp' target="_blank"><FaWhatsapp/></a>
+            {/* <a href="https://wa.me/919883429797" alt='Whatsapp' target="_blank"><FaWhatsapp/></a> */}
             <a href="https://github.com/sudipta-on" alt='Github' target="_blank"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/sudipta-majumder/" alt='Linkdin' target="_blank"><FaLinkedin /></a>
             <a href="https://scholar.google.com/citations?user=XXXX" alt='Google Scholar' target="_blank"><FaGraduationCap /></a>

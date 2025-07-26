@@ -87,15 +87,6 @@ const Contact = () => {
 
 
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-start gap-6 text-lg text-green-400">
-  <a
-    href="https://wa.me/919883429797"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="flex items-center gap-2 hover:text-green-300 transition-colors"
-  >
-    <FaWhatsapp className="text-xl" />
-    <span className="text-white">+91 98834 29797</span>
-  </a>
 
   <a
     href="mailto:sudiptam.iitkgp.phy@gmail.com"
