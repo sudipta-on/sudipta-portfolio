@@ -1,6 +1,17 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { Helmet } from 'react-helmet-async';
+
+<Helmet>
+  <title>About | Sudipta Majumder</title>
+  <meta name="description" content="About Sudipta Majumder - Quantum ML, Quantum State Control Quantum Machine Learning IIT Kharagpur Research Scholar Sonjoy Majumder Sudipto KGP Sudipto-Quantum  " />
+  <meta property="og:title" content="About Sudipta" />
+  <meta property="og:description" content="Quantum computing portfolio and research Quantum machine Learning Quantum State Control IIT KGP" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="/og-image.png" />
+  <meta name="keywords" content="Quantum Computing, Quantum ML, QML, State Control, Research Portfolio, Sudipta Majumder, Sudipto Majumder, Machine Learning, IIT Kharagpur, Kharagpur, Soudipto, S Majumder, Quantum State Control, Sonjoy Majumder, Sudipta Physics, west Bengal" />
+</Helmet>
 
 
 gsap.registerPlugin(ScrollTrigger);
